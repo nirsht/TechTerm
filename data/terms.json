@@ -1,0 +1,1038 @@
+﻿[
+  {
+    "Name": "8.8.8.8",
+    "Description": "They usually use the DNS forwarder in the router, and that router is almost guaranteed to be configured via DHCP to use the ISP’s DNS recursions unless someone’s been making changes from the default. 8.8.8.8 is Google’s own DNS service.",
+    "Importance": "Medium",
+    "Topics": "DevOps, Network",
+    "Article": ""
+  },
+  {
+    "Name": "Acceptance Test",
+    "Description": "acceptance testing is a test conducted to determine if the requirements of a specification or contract are met. It may involve chemical tests, physical tests, or performance tests.",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Admission hook (kubernetes)",
+    "Description": "Admission webhooks are HTTP callbacks that receive admission requests and do something with them. You can define two types of admission webhooks, validating admission webhook and mutating admission webhook.",
+    "Importance": "Low",
+    "Topics": "DevOps, Kubernetes",
+    "Article": ""
+  },
+  {
+    "Name": "AJAX application",
+    "Description": "AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.",
+    "Importance": "Must",
+    "Topics": "Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "Anomaly detection",
+    "Description": "Anomaly detection (aka outlier analysis) is a step in data mining that identifies data points, events, and/or observations that deviate from a dataset’s normal behavior. Anomalous data can indicate critical incidents, such as a technical glitch, or potential opportunities, for instance a change in consumer behavior",
+    "Importance": "Must",
+    "Topics": "DevOps, Monitoring",
+    "Article": ""
+  },
+  {
+    "Name": "Artifact",
+    "Description": "To put it simply, an artifact is a by-product of software development. It’s anything that is created so a piece of software can be developed.",
+    "Importance": "Must",
+    "Topics": "Software Terms",
+    "Article": "https://artifacts.ai/what-is-an-artifact/"
+  },
+  {
+    "Name": "AST",
+    "Description": "Abstract Syntax Tree is a tree representation of the source code of a computer program that conveys the structure of the source code. Each node in the tree represents a construct occurring in the source code.",
+    "Importance": "Medium",
+    "Topics": "Software Terms",
+    "Article": "https://deepsource.io/glossary/ast/"
+  },
+  {
+    "Name": "Audit trail",
+    "Description": "Audit trail or audit log, are los or path, that describe the story of something, can be our code (PR, Merge, CD), can be event(his travel over many services)",
+    "Importance": "Must",
+    "Topics": "DevOps, Monitoring",
+    "Article": "https://harness.io/blog/audit-trails/"
+  },
+  {
+    "Name": "Availability",
+    "Description": "It is measured as a percentage of uptime and defines the proportion of time that a system is functional and working. Availability is affected by system errors, infrastructure problems, malicious attacks and system load.",
+    "Importance": "High",
+    "Topics": "DevOps",
+    "Article": ""
+  },
+  {
+    "Name": "Backpressure",
+    "Description": "Backpressure in software systems is the capability to overload the traffic communication. In other words, emitters of information overwhelm consumers with data they are not able to process. Eventually, people also apply this term as the mechanism to control and handle it",
+    "Importance": "High",
+    "Topics": "Backend, Design Pattern",
+    "Article": "https://medium.com/@jayphelps/backpressure-explained-the-flow-of-data-through-software-2350b3e77ce7"
+  },
+  {
+    "Name": "Backward compatible",
+    "Description": "Backward compatible (also known as downward compatible or backward compatibility) refers to a hardware or software system that can successfully use interfaces and data from earlier versions of the system or with other systems.",
+    "Importance": "Must",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "BDD",
+    "Description": "Stands for Behavior Driven Development. BDD is evolution of TDD, and testing application behavior as ‘user story’, the expected behavior is from the user standpoint. The Product is defining the test and the developer find the way to implement it as a test.",
+    "Importance": "Medium",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "BFS",
+    "Description": "BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layer-wise thus exploring the neighbour nodes",
+    "Importance": "High",
+    "Topics": "Algorithm",
+    "Article": "https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/"
+  },
+  {
+    "Name": "Blob",
+    "Description": "Git stores these different types of objects in . git/objects . A “blob” is used to store file data\n- it is generally a file. A “tree” is basically like a directory- it references a bunch of other trees and blobs (i.e. files and sub-directories). Acronyms of “binary large object”",
+    "Importance": "High",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Blockchain",
+    "Description": "Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.",
+    "Importance": "Low",
+    "Topics": "System Architect",
+    "Article": ""
+  },
+  {
+    "Name": "Boilerplate code",
+    "Description": "Boilerplate code is any seemingly repetitive code that shows up again and again in order to get a result that seems like it ought to be much simpler.",
+    "Importance": "Must",
+    "Topics": "Development Terms",
+    "Article": "https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/"
+  },
+  {
+    "Name": "Brownfield",
+    "Description": "Brownfield software development refers to the development and deployment of a new software system in the presence of existing or legacy software systems. This implies that any new software architecture must take into account and coexist with previously created code.",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Brute force",
+    "Description": "A brute-force attack is a trial-and-error method used by application programs to decode login information and encryption keys to use them to gain unauthorized access to systems.",
+    "Importance": "Must",
+    "Topics": "Cryptography, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Buffering and Caching",
+    "Description": "2 terms that are very similiar that are related to storing temporary/frequanlly used data",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": "https://www.google.com/amp/s/www.geeksforgeeks.org/difference-between-buffering-and-caching-in-os/amp/"
+  },
+  {
+    "Name": "Call stack Node.js",
+    "Description": "A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.",
+    "Importance": "Language Specific",
+    "Topics": "Backend, Node.js",
+    "Article": "https://javascript.plainenglish.io/node-call-stack-explained-fd9df1c49d2e"
+  },
+  {
+    "Name": "Cardinality",
+    "Description": "In databases, cardinality refers to the relationships between the data in two database tables. Ex. one-to-many, many-to-many, one-to-one and many-to-one.",
+    "Importance": "High",
+    "Topics": "Database",
+    "Article": "https://vertabelo.com/blog/cardinality-in-data-modeling/"
+  },
+  {
+    "Name": "Cascading failure",
+    "Description": "A cascading failure is a failure in a system of interconnected parts in which the failure of one or few parts leads to the failure of other parts, growing progressively as a result of positive feedback. This can occur when a single part fails, increasing the probability that other portions of the system fail.",
+    "Importance": "Must",
+    "Topics": "Development Terms, Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Casting",
+    "Description": "Casting. Sometimes a programmer needs to change the data type of the contents of a variable. For example, an integer may need to be converted to a string in order to be displayed as part of a message. This process is known as casting .",
+    "Importance": "Must",
+    "Topics": "Programming Languages Terms",
+    "Article": ""
+  },
+  {
+    "Name": "CNI",
+    "Description": "Container Network Interface, a CNCF project, consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of plugins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted. Kubernetes uses CNI as an interface between network providers and Kubernetes pod networking.",
+    "Importance": "Medium",
+    "Topics": "Backend, DevOps, Kubernetes",
+    "Article": "https://rancher.com/docs/rancher/v2.5/en/faq/networking/cni-providers/"
+  },
+  {
+    "Name": "Containerd",
+    "Description": "Docker is a broad set of technologies that are used to work with containers. containerd is an example of a container runtime. A container runtime is that process that does the actual work of creating, running, and destroying containers. Docker uses containerd as its runtime.",
+    "Importance": "Low",
+    "Topics": "DevOps",
+    "Article": ""
+  },
+  {
+    "Name": "Context propagation",
+    "Description": "Context propagation is a mechanism by which a context object (request metadata) passes in a transaction between and across components in microservices. Metadata collected from multiple components is reassembled into a coherent trace capturing what happened in that specific flow.",
+    "Importance": "High",
+    "Topics": "Backend, Development Terms",
+    "Article": "https://medium.com/jaegertracing/embracing-context-propagation-7100b9b6029a"
+  },
+  {
+    "Name": "Conway’s Law",
+    "Description": "Conway's Law applies to modular software systems and states that: \"Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization's communication structure\".",
+    "Importance": "Low",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "CORS",
+    "Description": "Cross-origin resource sharing is a mechanism that allows restricted resources  on ahttps://en.wikipedia.org/wiki/Web_pageweb page to be requested from another domain outside the domain from which the first resource was served.",
+    "Importance": "High",
+    "Topics": "Frontend, Security",
+    "Article": "https://blog.devgenius.io/cors-101-72b462396deb"
+  },
+  {
+    "Name": "CRM",
+    "Description": "CRM is a technology for managing all your company’s relationships and interactions with customers and potential customers.",
+    "Importance": "High",
+    "Topics": "Business Terms",
+    "Article": "https://www.salesforce.com/crm/what-is-crm/"
+  },
+  {
+    "Name": "CUE",
+    "Description": "CUE is an open-source data validation language and inference engine with its roots in logic programming.",
+    "Importance": "Low",
+    "Topics": "DevOps",
+    "Article": "https://cuelang.org/docs/about/"
+  },
+  {
+    "Name": "Data Ingestion",
+    "Description": "Data ingestion is the process of obtaining and importing data for immediate use or storage in a database. To ingest something is to take something in or absorb something.",
+    "Importance": "High",
+    "Topics": "Backend, Data",
+    "Article": ""
+  },
+  {
+    "Name": "Data integrity",
+    "Description": "Data integrity is a concept and process that ensures the accuracy, completeness, consistency, and validity of an organization's data.",
+    "Importance": "Must",
+    "Topics": "Backend, Data",
+    "Article": ""
+  },
+  {
+    "Name": "Data population",
+    "Description": "To populate data means to enter/fill in data.",
+    "Importance": "Must",
+    "Topics": "Backend, Data",
+    "Article": ""
+  },
+  {
+    "Name": "Data Reconciliation",
+    "Description": "Data reconciliation (DR) is a term typically used to describe a verification phase during a data migration where the target data is compared against original source data to ensure that the migration architecture has transferred the data correctly.",
+    "Importance": "High",
+    "Topics": "Backend, Data",
+    "Article": "https://www.notion.soData reconciliation (DR) is a term typically used to describe a verification phase during a data migration where the target data is compared against original source data to ensure that the migration architecture has transferred the data correctly."
+  },
+  {
+    "Name": "Data retention",
+    "Description": "the storing of information for a specified period.",
+    "Importance": "Must",
+    "Topics": "Data, Database",
+    "Article": ""
+  },
+  {
+    "Name": "Database seeding",
+    "Description": "Database seeding is populating a database with an initial set of data. It's common to load seed data such as initial user accounts or dummy data upon initial setup of an application.",
+    "Importance": "High",
+    "Topics": "Database",
+    "Article": ""
+  },
+  {
+    "Name": "DDOS",
+    "Description": "DDoS Attack means \"Distributed Denial-of-Service (DDoS) Attack\" and it is a cybercrime in which the attacker floods a server with internet traffic to prevent users from accessing connected online services and sites",
+    "Importance": "High",
+    "Topics": "Security",
+    "Article": ""
+  },
+  {
+    "Name": "Dedup",
+    "Description": "De-dupe stands for de-duplication and is defined as optimizing data storage by eliminating duplicate copies of data. An example of de-dupe is to remove multiple copies of the same file that are stored in a database in multiple locations.",
+    "Importance": "High",
+    "Topics": "Backend, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Design system",
+    "Description": "A Design System is the single source of truth which groups all the elements that will allow the teams to design, realize and develop a product.",
+    "Importance": "Must",
+    "Topics": "Development Terms, Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "DFS",
+    "Description": "Depth First Search (DFS) algorithm traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search, when a dead end occurs in any iteration.",
+    "Importance": "Medium",
+    "Topics": "Algorithm",
+    "Article": "https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm#:~:text=Depth%20First%20Search%20(DFS)%20algorithm,F%20and%20lastly%20to%20C."
+  },
+  {
+    "Name": "DH",
+    "Description": "DH stands for Diffie-Hellman, is and algorithm that establish shared secret over an unsecured meduiem",
+    "Importance": "Medium",
+    "Topics": "Algorithm, Cryptography",
+    "Article": "https://www.youtube.com/watch?v=KXq065YrpiU"
+  },
+  {
+    "Name": "Distribute tracing",
+    "Description": "Distributed tracing is a method of observing requests as they propagate through distributed cloud environments. Distributed tracing follows an interaction by tagging it with a unique identifier. This identifier stays with the transaction as it interacts with microservices, containers, and infrastructure.",
+    "Importance": "High",
+    "Topics": "DevOps, Monitoring",
+    "Article": "https://microservices.io/patterns/observability/distributed-tracing.html"
+  },
+  {
+    "Name": "Docker Socket",
+    "Description": "docker.sock is the UNIX socket that Docker daemon is listening to. It's the main entry point for Docker API. It also can be TCP socket but by default for security reasons Docker defaults to use UNIX socket.\nDocker cli client uses this socket to execute docker commands by default. You can override these settings as well.",
+    "Importance": "Medium",
+    "Topics": "DevOps, Network",
+    "Article": ""
+  },
+  {
+    "Name": "Dogfood",
+    "Description": "This means using your own product or software",
+    "Importance": "High",
+    "Topics": "Development Terms, Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "DORA metrics",
+    "Description": "4 important metrics in the DevOps world.",
+    "Importance": "High",
+    "Topics": "DevOps, Software Culture",
+    "Article": "https://www.leanix.net/en/wiki/vsm/dora-metrics#:~:text=stream%20management%20efforts.-,What%20are%20DORA%20metrics%3F,change%20failure%20rate%20(CFR)."
+  },
+  {
+    "Name": "Dot Files",
+    "Description": "Dotfiles are configuration files for various programs, and they help those programs manage their functionality.",
+    "Importance": "Low",
+    "Topics": "Development Terms",
+    "Article": "https://www.freecodecamp.org/news/dotfiles-what-is-a-dot-file-and-how-to-create-it-in-mac-and-linux/"
+  },
+  {
+    "Name": "DSA (digital signature algorithm)",
+    "Description": "Digital signatures rely on a public-key cryptography architecture to verify a document's authenticity and the sender's identification.",
+    "Importance": "Medium",
+    "Topics": "Algorithm, Cryptography",
+    "Article": "https://www.notion.soDigital signatures rely on a public-key cryptography architecture to verify a document's authenticity and the sender's identification"
+  },
+  {
+    "Name": "DSA (term)",
+    "Description": "Acronym for data structure algorithm.",
+    "Importance": "Must",
+    "Topics": "Algorithm, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "DTO",
+    "Description": "In the field of programming a data transfer object (DTO) is an object that carries data between processes. The motivation for its use is that communication between processes is usually done resorting to remote interfaces (e.g., web services), where each call is an expensive operation. It can be reflecting database table into DTO.",
+    "Importance": "High",
+    "Topics": "Programming Languages Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Ducktyping",
+    "Description": "Duck typing is a concept related to dynamic typing, where the type or the class of an object is less important than the methods it defines. When you use duck typing, you do not check types at all. Instead, you check for the presence of a given method or attribute.",
+    "Importance": "Must",
+    "Topics": "Programming Languages Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Eager Loading",
+    "Description": "You do everything when asked. Example: load every single image required before you render the page.",
+    "Importance": "High",
+    "Topics": "Development Terms, Frontend",
+    "Article": "https://stackoverflow.com/questions/1299374/what-is-eager-loading"
+  },
+  {
+    "Name": "ELK",
+    "Description": "Engineering stack that stand for elasticsearch, logstash and kibana",
+    "Importance": "Must",
+    "Topics": "Database, DevOps, Stack",
+    "Article": ""
+  },
+  {
+    "Name": "Epool",
+    "Description": "poll stands for event poll and is a Linux specific construct. It allows for a process to monitor multiple file descriptors and get notifications when I/O is possible on them.",
+    "Importance": "Low",
+    "Topics": "Backend",
+    "Article": ""
+  },
+  {
+    "Name": "ERP",
+    "Description": "Enterprise resource planning (ERP) refers to a type of software that organizations use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance, and supply chain operations.",
+    "Importance": "High",
+    "Topics": "Software Culture",
+    "Article": "https://www.youtube.com/watch?v=c9HfNg4a_Og, https://financesonline.com/benefits-erp-software-examples-top-solutions-explained/"
+  },
+  {
+    "Name": "ETL",
+    "Description": "ETL stands for \"extract, transform, and load.\" The process of ETL plays a key role in data integration strategies. ETL allows businesses to gather data from multiple sources and consolidate it into a single, centralized location. ETL also makes it possible for different types of data to work together.",
+    "Importance": "High",
+    "Topics": "Data, Software Culture",
+    "Article": "https://databricks.com/glossary/extract-transform-load#:~:text=ETL%2C%20which%20stands%20for%20extract,downstream%20to%20solve%20business%20problems."
+  },
+  {
+    "Name": "Exclusive Lock",
+    "Description": "When a statement modifies data, its transaction holds an exclusive lock on data that prevents other transactions from accessing the data.",
+    "Importance": "Medium",
+    "Topics": "Database, Software Terms",
+    "Article": "https://www.geeksforgeeks.org/difference-between-shared-lock-and-exclusive-lock/"
+  },
+  {
+    "Name": "Exponential backoff",
+    "Description": "An exponential backoff algorithm retries requests exponentially, increasing the waiting time between retries up to a maximum backoff time.",
+    "Importance": "Medium",
+    "Topics": "Backend",
+    "Article": "https://cloud.google.com/iot/docs/how-tos/exponential-backoff#:~:text=An%20exponential%20backoff%20algorithm%20retries,seconds%20and%20retry%20the%20request."
+  },
+  {
+    "Name": "Fault-Tolerance",
+    "Description": "Fault tolerance refers to the ability of a system (computer, network, cloud cluster, etc.) to continue operating without interruption when one or more of its components fail.",
+    "Importance": "Must",
+    "Topics": "Backend, DevOps, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Feature parity",
+    "Description": "Ability of application / feature to support the same capabilities of another application / feature",
+    "Importance": "Must",
+    "Topics": "Software Terms",
+    "Article": "https://www.reddit.com/r/iOSProgramming/comments/st5xf0/can_someone_explain_to_me_what_is_feature_parity/"
+  },
+  {
+    "Name": "FFI",
+    "Description": "A foreign function interface (FFI) is a mechanism by which a program written in one programming language can call routines or make use of services written in another.",
+    "Importance": "Low",
+    "Topics": "Programming Languages Terms",
+    "Article": "https://www.imperva.com/learn/availability/fault-tolerance/"
+  },
+  {
+    "Name": "Fishing",
+    "Description": "",
+    "Importance": "",
+    "Topics": "",
+    "Article": ""
+  },
+  {
+    "Name": "Flat buffer",
+    "Description": "This is a library that allow to load data from HD with fast serialization that looks like flat data but in reality it load into memory as buffer. From here is the name flat buffer. This library originally written in google and Open-Source from google later on.",
+    "Importance": "Low",
+    "Topics": "Backend",
+    "Article": "https://www.youtube.com/watch?v=olmL1fUnQAQ"
+  },
+  {
+    "Name": "Fuzzy test",
+    "Description": "Fuzz testing or fuzzing is an automated software testing method that injects invalid, malformed, or unexpected inputs into a system to reveal software defects and vulnerabilities",
+    "Importance": "Medium",
+    "Topics": "Programming Languages Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Graceful degradation",
+    "Description": "Graceful degradation is the ability of a computer, machine, electronic system or network to maintain limited functionality even when a large portion of it has been destroyed or rendered inoperative",
+    "Importance": "High",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Greenfield",
+    "Description": "The greenfield approach refers to software development services. That product development creates a system that can adapt to a new environment. In other words, the development process begins with a clean slate. This means that no new services use a legacy code.",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Hop",
+    "Description": "Hop is the logical distance between networks based on the number of routers that must be traversed by packets sent between them.",
+    "Importance": "Must",
+    "Topics": "Development Terms, Network",
+    "Article": ""
+  },
+  {
+    "Name": "HTTP terminator",
+    "Description": "Implements the logic for tracking all connections and their termination upon a timeout.",
+    "Importance": "Medium",
+    "Topics": "Backend, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "HyperLogLog",
+    "Description": "In the simplest of terms, HyperLogLog is an algorithm that makes it easy to estimate the number of unique values within a very large set, which is also known as https://en.wikipedia.org/wiki/Cardinality. For instance, if I define a set of 8 numbers, {4,3,6,2,2,6,1,7}, the cardinality of the membership set would be 6.",
+    "Importance": "Low",
+    "Topics": "Algorithm",
+    "Article": ""
+  },
+  {
+    "Name": "Idle",
+    "Description": "A computer processor is described as idle when it is not being used by any program. The process can hav idle CPU, idle connections, etc",
+    "Importance": "High",
+    "Topics": "Backend, Software Terms",
+    "Article": "https://en.wikipedia.org/wiki/Idle_(CPU)"
+  },
+  {
+    "Name": "Insider Treat",
+    "Description": "This includes malicious insider, careless insider and a mole. Read the article.",
+    "Importance": "Medium",
+    "Topics": "Security",
+    "Article": "https://www.imperva.com/learn/application-security/insider-threats/"
+  },
+  {
+    "Name": "Instrumentation",
+    "Description": "Refers to the measure of a product's performance, in order to diagnose errors and to write trace information. Instrumentation can be of two types: source instrumentation and binary instrumentation.",
+    "Importance": "High",
+    "Topics": "Backend, Development Terms, Monitoring",
+    "Article": "https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)"
+  },
+  {
+    "Name": "Introspection",
+    "Description": "Introspection is a method of inspecting a data source. When you perform introspection, structural information in the data source is inspected to detect tables, columns, functions, and other elements with their attributes. (generally the schema)",
+    "Importance": "High",
+    "Topics": "Database",
+    "Article": ""
+  },
+  {
+    "Name": "JAMstack",
+    "Description": "Stands for javascript, APIs and markup. Architect that design for web development",
+    "Importance": "Must",
+    "Topics": "Frontend, Stack",
+    "Article": "https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/, https://jamstack.org/generators/"
+  },
+  {
+    "Name": "JIT",
+    "Description": "JIT stand for just-in-time compilation is a way of interpreter to behave like compiler",
+    "Importance": "Must",
+    "Topics": "Security",
+    "Article": "https://www.freecodecamp.org/news/just-in-time-compilation-explained/#:~:text=A%20Just%2DIn%2DTime%20(,invoke%20this%20object%20code%20instead."
+  },
+  {
+    "Name": "Keep-Alive",
+    "Description": "The client cannot specify the timeout, it is the server configuration that determines the maximum timeout value. The extra Keep-Alive header can inform the client how long the server is willing to keep the connection open (timeout=N value) and how many requests you can do over the same connection (max=M) before the server will force a close of the connection.",
+    "Importance": "Medium",
+    "Topics": "Backend",
+    "Article": ""
+  },
+  {
+    "Name": "LAMP",
+    "Description": "Stands for linux, apache, MySql and PHP. Tech stack for basic web server - PHP running on apache in Linux and connecting to MySql.",
+    "Importance": "High",
+    "Topics": "Backend, Frontend, Stack",
+    "Article": ""
+  },
+  {
+    "Name": "Latency",
+    "Description": "The time delay or how long it takes data to travel between the sender and the receiver",
+    "Importance": "Must",
+    "Topics": "Development Terms, Software Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Lazy Loading",
+    "Description": "You only do a calculation when required. Example: load only the displayed images on page load and load the others if/when they are required.",
+    "Importance": "High",
+    "Topics": "Development Terms, Frontend",
+    "Article": "https://stackoverflow.com/questions/1299374/what-is-eager-loading"
+  },
+  {
+    "Name": "Libuv",
+    "Description": "Libuv is a C library originally written for Node. js to abstract non-blocking I/O operations. Event-driven asynchronous I/O model is integrated. It allows the CPU and other resources to be used simultaneously while still performing I/O operations, thereby resulting in efficient use of resources and network",
+    "Importance": "Medium",
+    "Topics": "Backend",
+    "Article": ""
+  },
+  {
+    "Name": "LSP",
+    "Description": "Language server protocol, this protocol used between IDE’s and source code editors and servers that provide programming language specific features",
+    "Importance": "Low",
+    "Topics": "Development Terms",
+    "Article": "https://en.wikipedia.org/wiki/Language_Server_Protocol"
+  },
+  {
+    "Name": "Materialized view",
+    "Description": "A materialized view takes the regular view and materializes it by proactively computing the results and storing them in a \"virtual\" table.",
+    "Importance": "Medium",
+    "Topics": "Database",
+    "Article": "https://materialize.com/guides/materialized-views/"
+  },
+  {
+    "Name": "MERN",
+    "Description": "Stands for MongoDB, express, React and Node.js. Tech stack for web develpment.",
+    "Importance": "Must",
+    "Topics": "Backend, Frontend, Stack",
+    "Article": ""
+  },
+  {
+    "Name": "Monkey patching",
+    "Description": "Monkey patching is a technique used to dynamically update the behavior of a piece of code at run-time. A monkey patch (also spelled monkey-patch, MonkeyPatch) is a way to extend or modify the runtime code of dynamic languages (e.g. Smalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, etc.)",
+    "Importance": "Medium",
+    "Topics": "Programming Languages Terms",
+    "Article": "https://stackoverflow.com/questions/5626193/what-is-monkey-patching"
+  },
+  {
+    "Name": "mTLS",
+    "Description": "Mutual Transport Layer Security (mTLS) is a process that establishes an encrypted TLS connection in which both parties use X.509 digital certificates to authenticate each other.",
+    "Importance": "Low",
+    "Topics": "DevOps, Network",
+    "Article": "https://www.f5.com/labs/articles/education/what-is-mtls"
+  },
+  {
+    "Name": "Mutex and lock",
+    "Description": "A lock allows only one thread to enter the part that's locked and the lock is not shared with any other processes. A mutex is the same as a lock but it can be system wide (shared by multiple processes).",
+    "Importance": "Medium",
+    "Topics": "Backend",
+    "Article": ""
+  },
+  {
+    "Name": "Node event-loop block",
+    "Description": "Blocking is when the execution of additional JavaScript in the Node. js process must wait until a non-JavaScript operation completes. This happens because the event loop is unable to continue running JavaScript while a blocking operation is occurring.",
+    "Importance": "Language Specific",
+    "Topics": "Backend, Node.js",
+    "Article": "https://medium.com/voodoo-engineering/node-js-lots-of-ways-to-block-your-event-loop-and-how-to-avoid-it-b41f41deecf5"
+  },
+  {
+    "Name": "NVM",
+    "Description": "Node Version Manager (NVM) is a tool used to manage multiple active Node. js versions.",
+    "Importance": "Medium",
+    "Topics": "Programming Languages Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Obfuscation",
+    "Description": "obfuscation is the act of creating source or machine code that is difficult for humans to understand.",
+    "Importance": "Must",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Observability",
+    "Description": "",
+    "Importance": "",
+    "Topics": "",
+    "Article": ""
+  },
+  {
+    "Name": "OPA",
+    "Description": "The Open Policy Agent is an open source, general-purpose policy engine that unifies policy enforcement across the stack. OPA provides a high-level declarative language that lets you specify policy as code and simple APIs to offload policy decision-making from your software.",
+    "Importance": "Medium",
+    "Topics": "DevOps, Security",
+    "Article": "https://www.openpolicyagent.org/docs/latest/"
+  },
+  {
+    "Name": "OSS",
+    "Description": "Open source software",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Over-Eager loading",
+    "Description": "This is where you try and anticipate what the user will ask for and preload it. Example: Load only the displayed images on page load. After the page has loaded preload the other images in the background in case you need them.",
+    "Importance": "High",
+    "Topics": "Development Terms, Frontend",
+    "Article": "https://stackoverflow.com/questions/1299374/what-is-eager-loading"
+  },
+  {
+    "Name": "Pagination",
+    "Description": "Pagination is a process that is used to divide a large data into smaller discrete pages, and this process is also known as paging",
+    "Importance": "Must",
+    "Topics": "Backend, Development Terms, Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "Penetration test",
+    "Description": "A penetration test (pen test) is an authorized simulated attack performed on a computer system to evaluate its security.",
+    "Importance": "High",
+    "Topics": "Security",
+    "Article": "https://www.synopsys.com/glossary/what-is-penetration-testing.html"
+  },
+  {
+    "Name": "Phising",
+    "Description": "Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message. The recipient is then tricked into clicking a malicious link, which can lead to the installation of malware, the freezing of the system as part of a ransomware attack or the revealing of sensitive information.",
+    "Importance": "Medium",
+    "Topics": "Security",
+    "Article": "https://www.imperva.com/learn/application-security/phishing-attack-scam/"
+  },
+  {
+    "Name": "Predictive analytics",
+    "Description": "Predictive analytics is a branch of advanced analytics that makes predictions about future outcomes using historical data combined with statistical modeling, data mining techniques and machine learning.",
+    "Importance": "Low",
+    "Topics": "Data, Machine Learning",
+    "Article": "https://www.ibm.com/analytics/predictive-analytics"
+  },
+  {
+    "Name": "Preflight",
+    "Description": "A CORS preflight request is a CORS request that checks to see if the CORS protocol is understood and a server is aware using specific methods and headers. Genrally, it is an OPTIONS request.",
+    "Importance": "High",
+    "Topics": "Development Terms, Frontend",
+    "Article": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request"
+  },
+  {
+    "Name": "Premature optimization",
+    "Description": "Premature optimization is spending a lot of time on something that you may not actually need. “Premature optimization is the root of all evil” is a famous saying among software developers",
+    "Importance": "Must",
+    "Topics": "Development Terms, Software Culture",
+    "Article": "https://www.toptal.com/freelance/curse-premature-optimization"
+  },
+  {
+    "Name": "Problem Details",
+    "Description": "Standart for responding error from Rest API server.",
+    "Importance": "Low",
+    "Topics": "Backend",
+    "Article": "https://codeopinion.com/problem-details-for-better-rest-http-api-errors/"
+  },
+  {
+    "Name": "Protocol Buffer",
+    "Description": "Protocol buffers provide a language-neutral, platform-neutral, extensible mechanism for serializing structured data in a forward-compatible and backward-compatible way . It's like JSON, except it's smaller and faster, and it generates native language bindings. It is build to work with gRPC.",
+    "Importance": "Medium",
+    "Topics": "Backend, Development Terms",
+    "Article": "https://www.youtube.com/watch?v=yfZB2_rT_Pc"
+  },
+  {
+    "Name": "Provisioning",
+    "Description": "Provisioning is the process of setting up IT infrastructure. It can also refer to the steps required to manage access to data and resources, and make them available to users and systems. Provisioning is not the same thing as configuration, but they are both steps in the deployment process.",
+    "Importance": "Must",
+    "Topics": "DevOps, Development Terms",
+    "Article": "https://www.redhat.com/en/topics/automation/what-is-provisioning"
+  },
+  {
+    "Name": "RCA",
+    "Description": "Root cause analysis is a method of problem solving used for identifying the root causes of faults or problems.",
+    "Importance": "Must",
+    "Topics": "Backend, DevOps, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Redundancy",
+    "Description": "In engineering, redundancy is the duplication of critical components or functions of a system with the intention of increasing reliability of the system, usually in the form of a backup or fail-safe, or to improve actual system performance",
+    "Importance": "Must",
+    "Topics": "Data, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Roundtrip",
+    "Description": "The round trip time is how long it takes for a request sent from a source to a destination, and for the response to get back to the original source. Basically, the latency in each direction, plus the processing time.",
+    "Importance": "Must",
+    "Topics": "Network",
+    "Article": ""
+  },
+  {
+    "Name": "RPC",
+    "Description": "Stand for “Remote Procedural Call”. Most computer programs run procedures, or sets of instructions, using the computer's CPU. In other words, the instructions are processed locally on the same computer that the software is running from. Remote procedure calls, however, run procedures on other machines or devices connected to a network.",
+    "Importance": "Must",
+    "Topics": "Backend",
+    "Article": "https://www.ibm.com/docs/en/aix/7.1?topic=concepts-remote-procedure-call"
+  },
+  {
+    "Name": "RSA",
+    "Description": "Stand for “Rivest Shamir Adleman” is an Asymmetric Encryption algorithm. It doing it mainly by using 2 keys public and private.",
+    "Importance": "Medium",
+    "Topics": "Algorithm, Cryptography",
+    "Article": "https://www.youtube.com/watch?v=Pq8gNbvfaoM"
+  },
+  {
+    "Name": "RSS",
+    "Description": "RSS (Really Simple Syndication) is an XML-based format for distributing and aggregating Web content\n (such as news headlines). Using RSS, web content providers can easily create and disseminate feeds of data that include, for example, news links, headlines, and summaries.",
+    "Importance": "Medium",
+    "Topics": "Misc",
+    "Article": ""
+  },
+  {
+    "Name": "RUM metrics",
+    "Description": "Real User Monitoring is a type of performance monitoring that captures and analyzes each transaction by users of a website or application.",
+    "Importance": "High",
+    "Topics": "Monitoring",
+    "Article": ""
+  },
+  {
+    "Name": "Service Mesh",
+    "Description": "a way to control how different parts of an application share data with one another.",
+    "Importance": "Low",
+    "Topics": "Kubernetes",
+    "Article": "https://www.elastic.co/what-is/elk-stack"
+  },
+  {
+    "Name": "Shared Lock",
+    "Description": "Shared locks support read integrity. They ensure that a record is not in process of being updated during a read-only request.",
+    "Importance": "Medium",
+    "Topics": "Database, Software Terms",
+    "Article": "https://www.geeksforgeeks.org/difference-between-shared-lock-and-exclusive-lock/"
+  },
+  {
+    "Name": "SLA",
+    "Description": "Service Level Agreement - high agreement to your customers or users",
+    "Importance": "Must",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "SLI",
+    "Description": "Service Level Indicators - the real number of performance of the SLO",
+    "Importance": "Medium",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "SLO",
+    "Description": "Service Level Objectives - the objectives your team must hit the SLA",
+    "Importance": "Medium",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Slots in Python",
+    "Description": "Slots in Python is a special mechanism that is used to reduce memory of the objects. In Python, all the objects use a dynamic dictionary for adding an attribute. Slots is a static type method in this no dynamic dictionary are required for allocating attribute.",
+    "Importance": "Language Specific",
+    "Topics": "Backend, Python",
+    "Article": "https://www.geeksforgeeks.org/slots-in-python/#:~:text=Slots%20in%20Python%20is%20a,are%20required%20for%20allocating%20attribute."
+  },
+  {
+    "Name": "Slotted pages",
+    "Description": "Slotted pages work by splitting up the page into a few independent memory regions that grow into each other",
+    "Importance": "Low",
+    "Topics": "Database",
+    "Article": "https://siemens.blog/posts/database-page-layout/"
+  },
+  {
+    "Name": "Smoke test",
+    "Description": "It ensures that all the core functionalities of the program are working seamlessly and cohesively\n. Smoke testing is executed before any functional tests are done",
+    "Importance": "Must",
+    "Topics": "Development Terms, Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "Social engineering",
+    "Description": "Social engineering is the term used for a broad range of malicious activities accomplished through human interactions. It uses psychological manipulation to trick users into making security mistakes or giving away sensitive information.",
+    "Importance": "Low",
+    "Topics": "Security",
+    "Article": "https://www.imperva.com/learn/application-security/social-engineering-attack/#:~:text=Social%20engineering%20is%20the%20term,in%20one%20or%20more%20steps."
+  },
+  {
+    "Name": "Software Bundle",
+    "Description": "The practice of selling multiple applications or capabilities together for a combined price. Typically all components of the bundle of applications are activated with the same license code.",
+    "Importance": "Low",
+    "Topics": "Software Terms",
+    "Article": ""
+  },
+  {
+    "Name": "SOP",
+    "Description": "SOP stands for standard operating procedure. SOPs are more than simply a written set of work instructions. A standard operating procedure is a document containing step-by-step instructions to guide employees on how to perform a technical, repetitive process within an organization.",
+    "Importance": "Low",
+    "Topics": "Software Culture",
+    "Article": "https://www.beekeeper.io/blog/sop/"
+  },
+  {
+    "Name": "SPA",
+    "Description": "A single-page application is a Web app that is presented to the user through a single HTML page to be more responsive and to more closely replicate a desktop application or a native app.",
+    "Importance": "Medium",
+    "Topics": "Development Terms, Frontend",
+    "Article": "https://www.techtarget.com/whatis/definition/single-page-application-SPA"
+  },
+  {
+    "Name": "Spin-up",
+    "Description": "To \"spin up\" a system is to boot up a virtual machine on a computer somewhere",
+    "Importance": "Medium",
+    "Topics": "DevOps, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "SQL constrains",
+    "Description": "SQL constraints are used to specify rules for the data in a table.",
+    "Importance": "Medium",
+    "Topics": "Database",
+    "Article": "https://www.w3schools.com/sql/sql_constraints.asp"
+  },
+  {
+    "Name": "SSR",
+    "Description": "Server side rendering is ability of application to contribute by displaying the web-page on the server side instead of rendering it on the browser.",
+    "Importance": "Low",
+    "Topics": "Frontend",
+    "Article": "https://www.educative.io/edpresso/what-is-server-side-rendering"
+  },
+  {
+    "Name": "StatsD",
+    "Description": "StatsD is originally a simple daemon to aggregate and summarize application metrics",
+    "Importance": "Medium",
+    "Topics": "Monitoring",
+    "Article": "https://www.datadoghq.com/blog/statsd/"
+  },
+  {
+    "Name": "Stealth Startup",
+    "Description": "A stealth startup is a type of startup company that operates in stealth and silence to outsiders, avoiding public attention.",
+    "Importance": "Low",
+    "Topics": "Business Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Stickiness",
+    "Description": "Stickiness is anything about a Web site that encourages a visitor to stay longer. A Web site is sticky if a visitor tends to stay for a long time and to return.",
+    "Importance": "Medium",
+    "Topics": "Development Terms, Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "Stolen CPU",
+    "Description": "CPU steal time, also known as stolen CPU, is the percentage of time a virtual CPU within a cloud server involuntarily waits on a physical CPU for its processing time. In a cloud environment, a hypervisor acts as an interface between the physical server and its virtualized environment.",
+    "Importance": "Low",
+    "Topics": "Backend, Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Stored Procedure",
+    "Description": "A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.\nSo if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.",
+    "Importance": "Medium",
+    "Topics": "Database",
+    "Article": ""
+  },
+  {
+    "Name": "Syntactic sugar",
+    "Description": "Syntactic sugar is any aspect of the syntax of a programming language that makes programs easier to read, write, or understand. A common example of syntactic sugar is an augmented assignment operator, such as +=.",
+    "Importance": "Medium",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "TCO",
+    "Description": "Total cost of ownership (TCO) is a financial estimate that helps consumers and enterprise managers determine direct and indirect costs of a product or system.",
+    "Importance": "Low",
+    "Topics": "Software Culture",
+    "Article": ""
+  },
+  {
+    "Name": "TDD",
+    "Description": "Stands for Test Driven development, in simple terms it means that you write you tests before you write your code.",
+    "Importance": "Low",
+    "Topics": "Development Terms, Programming Languages Terms",
+    "Article": "https://www.projecttimes.com/articles/calculating-total-cost-of-ownership-when-choosing-a-solution/"
+  },
+  {
+    "Name": "Telemetry",
+    "Description": "Telemetry is a technologity that allow measuring from distance in automatic process. It’s aim is to collect measurments or other data in distant points.",
+    "Importance": "Must",
+    "Topics": "Monitoring",
+    "Article": "https://stackify.com/telemetry-tutorial/"
+  },
+  {
+    "Name": "Tenant Isolation",
+    "Description": "Tenant isolation is fundamental to the design and development of software-as-a-service (SaaS) systems. It enables SaaS providers to reassure customers that—even in a multi-tenant environment—their resources cannot be accessed by other tenants.",
+    "Importance": "High",
+    "Topics": "SaaS, Software Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Thundering Herd",
+    "Description": "Many users are requesting resources, but only a few machines are available to serve the burst of traffic. These could occur during peak time or in densely populated areas.",
+    "Importance": "Medium",
+    "Topics": "Software Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Traceroute",
+    "Description": "A traceroute provides a map of how data on the internet travels from its source to its destination",
+    "Importance": "Low",
+    "Topics": "Network",
+    "Article": ""
+  },
+  {
+    "Name": "Tree traversal",
+    "Description": "Traversal is a process to visit all the nodes of a tree and may print their values too.",
+    "Importance": "Low",
+    "Topics": "Algorithm",
+    "Article": ""
+  },
+  {
+    "Name": "Triage",
+    "Description": "The goal of triage is to evaluate, prioritize, and assign the resolution of bugs or defects.",
+    "Importance": "High",
+    "Topics": "Development Terms, Software Culture",
+    "Article": "https://str-wibowo98.medium.com/what-is-software-triage-b66c6b0a2777"
+  },
+  {
+    "Name": "Turing test",
+    "Description": "The Turing Test is a method of inquiry in artificial intelligence (AI) for determining whether or not a computer is capable of thinking like a human being.",
+    "Importance": "Low",
+    "Topics": "Misc",
+    "Article": ""
+  },
+  {
+    "Name": "UTM paramaters",
+    "Description": "UTM parameters are a simple, straightforward, and reliable way to track traffic online. If you’re sending any traffic at all to your web properties from your social accounts, UTM codes should be a critical part of your marketing toolkit.",
+    "Importance": "Low",
+    "Topics": "Frontend, Marketing",
+    "Article": "https://blog.hootsuite.com/how-to-use-utm-parameters/#:~:text=UTM%20parameters%20are%20short%20text,performance%20of%20webpage%20or%20campaign.&text=UTM%20parameters%20are%20a%20simple,cookies%20or%20the%20Facebook%20pixel."
+  },
+  {
+    "Name": "UVP",
+    "Description": "A unique value proposition (UVP), also known as a unique selling proposition (USP), is a statement that clearly expresses your product or service's distinct selling points to potential customers. A UVP statement conveys more information than a tagline or slogan",
+    "Importance": "Low",
+    "Topics": "Marketing",
+    "Article": "https://www.masterclass.com/articles/unique-value-proposition-guide"
+  },
+  {
+    "Name": "Varnish cache",
+    "Description": "Varnish Cache is a so-called reverse caching proxy. It’s a piece of software that you put in front of your web server(s) to reduce the loading times of your website/application/API by caching the server’s output.",
+    "Importance": "Medium",
+    "Topics": "Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "VCS",
+    "Description": "Version Control System - git as example",
+    "Importance": "Must",
+    "Topics": "Development Terms",
+    "Article": ""
+  },
+  {
+    "Name": "View SQL",
+    "Description": "VIEWS are virtual tables .By virtual, the tables do not store any data of their own but display data stored in other tables. In other words, VIEWS are nothing but SELECT Queries.",
+    "Importance": "High",
+    "Topics": "Database",
+    "Article": "https://www.programsbuzz.com/interview-question/what-view-sql-what-are-its-advantages-and-disadvantages"
+  },
+  {
+    "Name": "Web scraping",
+    "Description": "Web scraping is the process of using bots to extract content and data from a website. Unlike screen scraping, which only copies pixels displayed onscreen, web scraping extracts underlying HTML code and, with it, data stored in a database.",
+    "Importance": "Medium",
+    "Topics": "Frontend, Software Terms",
+    "Article": ""
+  },
+  {
+    "Name": "Web socket",
+    "Description": "WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection.",
+    "Importance": "Must",
+    "Topics": "Backend, Development Terms, Frontend",
+    "Article": ""
+  },
+  {
+    "Name": "WebDAV",
+    "Description": "WebDAV stands for \"Web-based Distributed Authoring and Versioning\". It is a set of extensions to the HTTP protocol which allows users to collaboratively edit and manage files on remote web servers.",
+    "Importance": "Medium",
+    "Topics": "Network",
+    "Article": ""
+  },
+  {
+    "Name": "WSGI",
+    "Description": "The Web Server Gateway Interface is a simple calling conversion for web servers to forward requests to web applications or frameworks written in Python.",
+    "Importance": "Low",
+    "Topics": "Misc",
+    "Article": "https://www.fullstackpython.com/wsgi-servers.html"
+  },
+  {
+    "Name": "XHTML",
+    "Description": "XHTML is a term that was historically used to describe HTML documents written to conform with XML syntax rules.",
+    "Importance": "Low",
+    "Topics": "Frontend",
+    "Article": ""
+  }
+]
