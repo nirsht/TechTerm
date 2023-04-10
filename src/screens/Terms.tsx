@@ -8,8 +8,8 @@ import {
   Linking,
 } from "react-native";
 import termsJson from "./../../data/terms.json";
-import { Record as RTRecord, String, Array as RTArray, Static } from "runtypes";
-import { usePlayerContext } from "../context/PlayerContext";
+import { Record as RTRecord, String, Static } from "runtypes";
+import { savePlayerData, usePlayerContext } from "../context/PlayerContext";
 
 const Term = RTRecord({
   Name: String,
@@ -33,6 +33,7 @@ const TermsScreen = () => {
 
   const correctCallback = useCallback(() => {
     player.knownTerms.push(currentTerm.Name);
+    savePlayerData(player);
     setUserClicked(true);
   }, [currentTerm, player.knownTerms, unknownTerms]);
 
@@ -53,8 +54,8 @@ const TermsScreen = () => {
             Importance: {currentTerm.Importance}
           </Text>
         </View>
-        {currentTerm.Topics.split(",").map((topic) => (
-          <View style={styles.levelContainer}>
+        {currentTerm.Topics.split(",").map((topic, index) => (
+          <View style={styles.levelContainer} key={index}>
             <Text style={styles.levelText}>{topic}</Text>
           </View>
         ))}
