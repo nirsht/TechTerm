@@ -28,7 +28,7 @@ const HomeScreen = () => {
           style={styles.button}
           onPress={() => Alert.alert("Coming soon!")}
         >
-          <Text style={styles.text}>Technologies</Text>
+          <Text style={styles.text}>Design Patterns</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.button}
