@@ -25,9 +25,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     position: "absolute",
     gap: 10,
-    top: 20,
-    left: 20,
-    right: 20,
+    top: 10,
+    left: 10,
+    right: 10,
     flexWrap: "wrap",
   },
   levelContainer: {
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   levelText: {
     color: "#FFFFFF",
     fontWeight: "600",
-    fontSize: 16,
+    fontSize: 14,
     letterSpacing: 0.5,
   },
 });

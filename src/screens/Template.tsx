@@ -116,24 +116,22 @@ const styles = StyleSheet.create({
 const buttonsStyles = StyleSheet.create({
   container: {
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-between",
     flexDirection: "row",
+    paddingHorizontal: 100,
     gap: 20,
   },
   knowButton: {
     backgroundColor: "#4CAF50",
-    paddingVertical: 16,
-    paddingHorizontal: 32,
+    paddingVertical: 14,
+    paddingHorizontal: 28,
     borderRadius: 8,
-    marginTop: 16,
-    flexWrap: "nowrap",
   },
   dontKnowButton: {
     backgroundColor: "#F44336",
-    paddingVertical: 16,
-    paddingHorizontal: 32,
+    paddingVertical: 14,
+    paddingHorizontal: 28,
     borderRadius: 8,
-    marginTop: 16,
   },
   nextButton: {
     backgroundColor: "#3498db",
@@ -141,7 +139,7 @@ const buttonsStyles = StyleSheet.create({
     borderRadius: 25,
     width: "85%",
     position: "absolute",
-    bottom: 25,
+    bottom: 20,
   },
   buttonText: {
     fontSize: 18,

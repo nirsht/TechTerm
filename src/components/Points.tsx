@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#E0E0E0",
     borderRadius: 8,
-    padding: 16,
+    padding: 10,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
@@ -30,10 +30,11 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
+    height: 50,
     elevation: 5,
   },
   points: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "bold",
     color: "#333",
   },
