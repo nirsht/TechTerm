@@ -1,11 +1,16 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const PointsAccumulation = ({ points }: { points: string }) => {
+interface PointsAccumulationProps {
+  points: string;
+  text: string;
+}
+
+const PointsAccumulation = ({ points, text }: PointsAccumulationProps) => {
   return (
     <View style={styles.container}>
       <Text style={styles.points}>{points}</Text>
-      <Text style={styles.label}>KNOWN TERMS</Text>
+      <Text style={styles.label}>{text}</Text>
     </View>
   );
 };

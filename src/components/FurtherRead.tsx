@@ -1,6 +1,6 @@
 import { capitalize } from "lodash";
 import react from "react";
-import { View, StyleSheet, Text } from "react-native";
+import { View, StyleSheet, Text, ScrollView } from "react-native";
 import Link from "./Link";
 
 interface FurtherReadProps {
@@ -12,7 +12,9 @@ const FurtherRead = ({ description, articleLink }: FurtherReadProps) => {
   return (
     <View style={styles.furtherInformationContainer}>
       <View style={styles.descriptionContainer}>
-        <Text style={styles.description}>{capitalize(description)}</Text>
+        <ScrollView style={{ flexGrow: 0 }}>
+          <Text style={styles.description}>{capitalize(description)}</Text>
+        </ScrollView>
       </View>
       {articleLink && <Link url={articleLink} text="Read More" />}
     </View>
@@ -27,6 +29,7 @@ const styles = StyleSheet.create({
   },
   descriptionContainer: {
     padding: 16,
+    maxHeight: 150,
     backgroundColor: "#fff",
     borderRadius: 8,
     shadowColor: "#000",
@@ -37,7 +40,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
-    width: "80%",
+    width: "85%",
     alignSelf: "center",
   },
   description: {

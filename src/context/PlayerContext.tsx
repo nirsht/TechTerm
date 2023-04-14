@@ -3,23 +3,45 @@ import { createContext } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 class Player {
-  knownTerms: string[];
+  knownTerms: string[] = [];
+  knownTechnologies: string[] = [];
 
-  constructor() {
-    this.knownTerms = [];
+  constructor(knownTerms?: string[], knownTechnologies?: string[]) {
+    if (knownTerms) this.knownTerms = knownTerms;
+    if (knownTechnologies) this.knownTechnologies = knownTechnologies;
   }
 
-  addTerm(term: string): void {
-    this.knownTerms.push(term);
+  getSubject(subject: string): string[] {
+    switch (subject) {
+      case "terms":
+        return this.knownTerms;
+      case "technologies":
+        return this.knownTechnologies;
+      default:
+        return [];
+    }
+  }
+
+  addKnownSubjectRow(subject: string, row: string): void {
+    switch (subject) {
+      case "terms":
+        this.knownTerms.push(row);
+        break;
+      case "technologies":
+        this.knownTechnologies.push(row);
+        break;
+      default:
+        break;
+    }
   }
 }
 
-const loadUserData = async (): Promise<Player | null> => {
+const loadPlayerData = async (): Promise<Player | null> => {
   try {
     const serializedUserData = await AsyncStorage.getItem("player");
     if (serializedUserData !== null) {
       const userData: Player = JSON.parse(serializedUserData);
-      return userData;
+      return new Player(userData.knownTerms, userData.knownTechnologies);
     }
     return null;
   } catch (error) {
@@ -33,11 +55,14 @@ export const playerStateContext = createContext<Player | null>(null);
 export const PlayerProvider: React.FC<{ children?: React.ReactNode }> = ({
   children,
 }) => {
-  const [player, setPlater] = useState<Player | null>(null);
+  const [player, setPlater] = useState<Player>(new Player());
 
   useEffect(() => {
     (async () => {
-      setPlater(await loadUserData());
+      const playerData = await loadPlayerData();
+      if (playerData) {
+        setPlater(playerData);
+      }
     })();
   }, []);
   return (

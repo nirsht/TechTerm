@@ -1,0 +1,443 @@
+﻿[
+  {
+    "name": "Aerospike",
+    "description": "Aerospike is an open source distributed Key-Value NoSQL database. It supports flexible data schemas and ACID transactions.",
+    "importance": "Low",
+    "topics":  ["Database", "NoSQL", "Opensource"],
+    "article_link": "https://aerospike.com/products/real-time-data-platform/"
+  },
+  {
+    "name": "AirFlow",
+    "description": "Workflow engine by Airbnb written in Python",
+    "importance": "Medium",
+    "topics":  ["Apache", "Python", "Workflow Engine"],
+    "article_link": "https://airflow.apache.org/"
+  },
+  {
+    "name": "Amazon EBS",
+    "description": "",
+    "importance": "Medium",
+    "topics":  ["Amazon"],
+    "article_link": "https://www.bmc.com/blogs/aws-ebs-elastic-block-store/"
+  },
+  {
+    "name": "Appdynamics",
+    "description": "AppDynamics enables you to observe and visualize your full technology stack, from database and server to cloud-native and hybrid environments. This enables you to optimize your applications by managing key business metrics, Application Programming Interfaces (APIs), code-level issues and conversions.",
+    "importance": "Medium",
+    "topics":  ["APM", "Cloud", "Monitoring"],
+    "article_link": "https://www.youtube.com/watch?v=oxa3GxLs8pY"
+  },
+  {
+    "name": "Applitools",
+    "description": "Applitools is a test automation tool powered by Visual AI",
+    "importance": "Low",
+    "topics":  ["AI", "SaaS", "Testing"],
+    "article_link": "https://applitools.com/free-account-registration-lp/?utm_term=applitools&utm_source=google&utm_medium=paid-search&utm_content=free-account&utm_campaign=brand-primary&gclid=CjwKCAiAl-6PBhBCEiwAc2GOVEsXmEjy4Qcfct6ckrfazoZl20g4sCXWRJRkFu6U_kPen79GCb_rLhoCJS8QAvD_BwE"
+  },
+  {
+    "name": "AWS ElstiCache",
+    "description": "AWS DB over Redis or Memcached for managed caching solution",
+    "importance": "Medium",
+    "topics":  ["AWS", "Caching", "Database"],
+    "article_link": "https://www.cloudzero.com/blog/amazon-elasticache"
+  },
+  {
+    "name": "AWS KMS",
+    "description": "Key management service powered by AWS.",
+    "importance": "Medium",
+    "topics":  ["AWS", "SaaS", "Secret Managment"],
+    "article_link": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html"
+  },
+  {
+    "name": "AWS Redshift",
+    "description": "AWS Redshift is a data warehouse product. It's used for large scale data storage and analysis, and is frequently used to perform large database migrations",
+    "importance": "High",
+    "topics":  ["AWS", "Data Engineering", "Database", "SaaS"],
+    "article_link": "https://www.sumologic.com/blog/what-is-amazon-redshift/"
+  },
+  {
+    "name": "AWS Secret Manager",
+    "description": "Secret Manager powered by AWS.",
+    "importance": "High",
+    "topics":  ["AWS", "SaaS", "Secret Managment"],
+    "article_link": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html"
+  },
+  {
+    "name": "Caddy",
+    "description": "Caddy is used as web server or proxy for many other web server. It is secure and running on https by default.",
+    "importance": "Low",
+    "topics":  ["Proxy", "Web server"],
+    "article_link": "https://caddyserver.com/docs/"
+  },
+  {
+    "name": "CLOMonitor",
+    "description": "CLOMonitor is a tool that periodically checks open source projects repositories to verify they meet certain project health best practices.",
+    "importance": "Must",
+    "topics":  ["Misc", "Opensource"],
+    "article_link": "https://clomonitor.io/"
+  },
+  {
+    "name": "Cloudify",
+    "description": "Orchestration platform",
+    "importance": "Low",
+    "topics":  ["Container Orchestration", "IaaC", "Opensource", "SaaS"],
+    "article_link": "https://docs.cloudify.co/3.4.2/intro/what-is-cloudify/"
+  },
+  {
+    "name": "Consul",
+    "description": "Consul is a single binary providing both server and client capabilities, and includes all functionality for service catalog, configuration, TLS certificates, authorization, and more.",
+    "importance": "Medium",
+    "topics":  ["Hashicorp, Microservices", "Opensource", "Service Mesh"],
+    "article_link": "https://www.consul.io/"
+  },
+  {
+    "name": "Couchbase",
+    "description": "Couchbase is an award-winning distributed NoSQL cloud database. It delivers unmatched versatility, performance, scalability, and financial value across cloud, on-premises, hybrid, distributed cloud, and edge computing deployments.",
+    "importance": "High",
+    "topics":  ["Database", "NoSQL"],
+    "article_link": "https://www.couchbase.com/"
+  },
+  {
+    "name": "Cypress",
+    "description": "E2E framework in javascript, main competitor is Testcafe.",
+    "importance": "Low",
+    "topics":  ["Frontend", "Javascript", "Library", "Testing"],
+    "article_link": "https://www.cypress.io/"
+  },
+  {
+    "name": "EFS",
+    "description": "Simple file storage as service out of the box",
+    "importance": "Medium",
+    "topics":  ["AWS", "Storage"],
+    "article_link": "https://aws.amazon.com/efs/"
+  },
+  {
+    "name": "Emacs",
+    "description": "The oldest IDE, open source that is still widely used.",
+    "importance": "Medium",
+    "topics":  ["IDE", "Opensource"],
+    "article_link": "https://www.gnu.org/software/emacs/"
+  },
+  {
+    "name": "Envoy",
+    "description": "Envoy is a high performance C++ distributed proxy designed for single services and applications, as well as a communication bus and “universal data plane” designed for large microservice “service mesh” architectures.",
+    "importance": "Medium",
+    "topics":  ["Opensource"],
+    "article_link": "https://envoy.com/"
+  },
+  {
+    "name": "Excalidraw",
+    "description": "",
+    "importance": "Low",
+    "topics":  ["Architect", "Planning"],
+    "article_link": "https://excalidraw.com/"
+  },
+  {
+    "name": "Firebase",
+    "description": "Firebase is a full capabilities for building applications. It gives you full support for building you apps.",
+    "importance": "Medium",
+    "topics":  ["Cloud", "GCP", "SaaS"],
+    "article_link": "https://www.youtube.com/watch?v=O17OWyx08Cg"
+  },
+  {
+    "name": "Foundation",
+    "description": "Framework for front-end development",
+    "importance": "Medium",
+    "topics":  ["Framework", "Frontend"],
+    "article_link": "https://get.foundation/"
+  },
+  {
+    "name": "Fultter",
+    "description": "Flutter is Google's portable UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase",
+    "importance": "Low",
+    "topics":  ["Framework", "Frontend", "Opensource"],
+    "article_link": "https://flutter.dev/"
+  },
+  {
+    "name": "GA",
+    "description": "Google Analytics is a platform that collects data from your websites and apps to create reports that provide insights into your business.",
+    "importance": "Must",
+    "topics":  ["BI", "Cloud", "Google", "Analytics"],
+    "article_link": "https://analytics.google.com/analytics/web/"
+  },
+  {
+    "name": "Gitter",
+    "description": "Community for developers to talk about tech",
+    "importance": "Low",
+    "topics":  ["Community"],
+    "article_link": "https://gitter.im/"
+  },
+  {
+    "name": "Graphite",
+    "description": "Graphite is a monitoring tool that runs equally well on cheap hardware or Cloud infrastructure",
+    "importance": "Medium",
+    "topics":  ["Monitoring", "SaaS"],
+    "article_link": "http://graphiteapp.org/case-studies/github.html"
+  },
+  {
+    "name": "Holistics",
+    "description": "Self service BI platform",
+    "importance": "Medium",
+    "topics":  ["BI", "SaaS"],
+    "article_link": "https://www.holistics.io/"
+  },
+  {
+    "name": "Impala",
+    "description": "Impala is an open-source and native analytics database for Hadoop. It is a Massive Parallel Processing (MPP) SQL query engine that processes massive amounts of data stored in a Hadoop cluster.Impala provides high performance and low latency compared to other SQL engines for Apache Hadoop, such as Hive.",
+    "importance": "Medium",
+    "topics":  ["Apache", "Database"],
+    "article_link": "https://www.analyticsvidhya.com/blog/2022/08/what-is-apache-impala-features-and-architecture/#:~:text=What%20is%20Impala%3F-,Impala%20is%20an%20open%2Dsource%20and%20native%20analytics%20database%20for,Apache%20Hadoop%2C%20such%20as%20Hive."
+  },
+  {
+    "name": "InfluxDB",
+    "description": "InfluxDB is a database based time-series",
+    "importance": "Low",
+    "topics":  ["Database"],
+    "article_link": "https://www.influxdata.com/"
+  },
+  {
+    "name": "Jaeger",
+    "description": "Distributed tracing system released as open source by Uber Technologies. It is used for monitoring and troubleshooting microservices-based distributed systems, including: Distributed transaction monitoring. Performance and latency optimization.",
+    "importance": "High",
+    "topics":  ["Distribute Tracing", "Monitoring", "Opensource"],
+    "article_link": "https://www.jaegertracing.io/"
+  },
+  {
+    "name": "Jinja",
+    "description": "It is a text-based template language and thus can be used to generate any markup as well as source code. The Jinja template engine allows customization of tags, filters, tests, and globals.",
+    "importance": "High",
+    "topics":  ["Template engine"],
+    "article_link": "https://jinja.palletsprojects.com/en/3.0.x/"
+  },
+  {
+    "name": "Jsonnet",
+    "description": "A data templating language for app and tool developers.",
+    "importance": "Medium",
+    "topics":  ["Template engine"],
+    "article_link": "https://jsonnet.org/"
+  },
+  {
+    "name": "KEDA",
+    "description": "KEDA is a K8s based Event Driven Autoscaler. With KEDA, you can drive the scaling of any container in Kubernetes based on the number of events needing to be processed.",
+    "importance": "Low",
+    "topics":  ["Kubernetes"],
+    "article_link": "https://keda.sh/"
+  },
+  {
+    "name": "Krew",
+    "description": "Krew is a tool that helps you manages plugins on your kubectl, very similar to apt-get and brew.",
+    "importance": "Low",
+    "topics":  ["CLI", "Kubernetes", "Package Manager"],
+    "article_link": "https://github.com/kubernetes-sigs/krew"
+  },
+  {
+    "name": "MariaDB",
+    "description": "MariaDB is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL. It is notable for being led by the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle.",
+    "importance": "High",
+    "topics":  ["Database", "NoSQL"],
+    "article_link": "https://www.openlogic.com/blog/mariadb-overview"
+  },
+  {
+    "name": "Metasploit",
+    "description": "The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development",
+    "importance": "Low",
+    "topics":  ["Opensource", "Security", "Vulnerabilities"],
+    "article_link": "https://www.metasploit.com/"
+  },
+  {
+    "name": "Nagios",
+    "description": "Nagios is an open source monitoring system for computer systems\n. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems (OSes). Nagios software runs periodic checks on critical parameters of application, network and server resources.",
+    "importance": "Medium",
+    "topics":  ["Infrastructure", "Monitoring", "Opensource"],
+    "article_link": "https://www.nagios.org/"
+  },
+  {
+    "name": "OpenStack",
+    "description": "OpenStack is an Iaas (Infrastructure as a service) used to convert the existing servers to the cloud.",
+    "importance": "Medium",
+    "topics":  ["IaaS", "Infrastructure", "Opensource"],
+    "article_link": "https://www.redhat.com/en/topics/openstack"
+  },
+  {
+    "name": "OpenTracing",
+    "description": "The OpenTracing API provides a standard, vendor neutral framework for instrumentation. This means that if a developer wants to try out a different distributed tracing system, then instead of repeating the whole instrumentation process for the new distributed tracing system, the developer can simply change the configuration of the Tracer.",
+    "importance": "High",
+    "topics":  ["API", "Distribute Tracing", "Opensource"],
+    "article_link": "https://opentracing.io/docs/overview/"
+  },
+  {
+    "name": "Packer",
+    "description": "Packer is an open source tool that enables you to create identical machine images for multiple platforms from a single source template. A common use case is creating \"golden images\" that teams across an organization can use in cloud infrastructure.",
+    "importance": "Medium",
+    "topics":  ["Hashicorp", "Images", "Opensource"],
+    "article_link": "https://www.packer.io/docs"
+  },
+  {
+    "name": "Presto",
+    "description": "Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes.",
+    "importance": "Low",
+    "topics":  ["Database", "SQL"],
+    "article_link": "https://prestodb.io/"
+  },
+  {
+    "name": "Pulumi",
+    "description": "An infrastructure as a code platform that lets you write you infra using modern programming language such as Python, Typescript, Java and markup languages such as YAML and CUE.",
+    "importance": "Medium",
+    "topics":  ["IaaC"],
+    "article_link": "https://www.pulumi.com/?utm_source=google&utm_medium=cpc&utm_source=Google+Ads&utm_medium=CPC&utm_campaign=Pulumi+-+Brand&gclid=Cj0KCQjw08aYBhDlARIsAA_gb0cP_yJi01rG0iEIinw3606ltuhXfuCEn-37i5KBupAiQ5SNNa1P378aAjHlEALw_wcB"
+  },
+  {
+    "name": "Pypy",
+    "description": "PyPy is an alternative implementation of the Python programming language to CPython (which is the standard implementation). PyPy often runs faster than CPython because PyPy uses a just-in-time compiler.",
+    "importance": "Must",
+    "topics":  ["Language"],
+    "article_link": "https://www.pypy.org/"
+  },
+  {
+    "name": "RabbitMQ",
+    "description": "Open-source message broker",
+    "importance": "High",
+    "topics":  ["Message Broker", "Opensource"],
+    "article_link": "https://en.wikipedia.org/wiki/RabbitMQ"
+  },
+  {
+    "name": "Raygun",
+    "description": "Raygun is a cloud-based networking monitoring and bug tracking application. It is suitable for large and midsize organizations across a variety of industries and offers crash reporting, user monitoring, user tracking, deployment tracking and integrations with other software.",
+    "importance": "Low",
+    "topics":  ["Exception Monitoring"],
+    "article_link": "https://raygun.com/?utm_source=google&utm_medium=cpc&utm_campaign=18133649409&keyword=raygun&network=g&gclid=CjwKCAiAs8acBhA1EiwAgRFdw1ZArPxX3htXd9tDMHkbhtlciZgm9konmF9zTHh1k6RobAWPPU7EUBoCBE8QAvD_BwE"
+  },
+  {
+    "name": "Relay",
+    "description": "Client library for using graphql. It is a framework for building data-driven React applications. It provides a declarative API for fetching, caching, and updating GraphQL data.",
+    "importance": "Low",
+    "topics":  ["Frontend", "GraphQL", "Library"],
+    "article_link": "https://relay.dev/"
+  },
+  {
+    "name": "Rivery",
+    "description": "SaaS platform provide E2E solution to ETL pipelines. It is a cloud-based data integration platform that helps you to connect, transform, and load data from any source to any destination.",
+    "importance": "Low",
+    "topics":  ["ETL", "SaaS"],
+    "article_link": "https://rivery.io/"
+  },
+  {
+    "name": "Rook",
+    "description": "Rook is an open source cloud-native storage orchestrator\n for Kubernetes, providing the platform, framework, and support for Ceph storage to natively integrate with Kubernetes. This project will help you to manage your storage by yourself without using cloud provider similar services like S3",
+    "importance": "Low",
+    "topics":  ["Kubernetes", "Opensource", "Storage"],
+    "article_link": "https://rook.io/"
+  },
+  {
+    "name": "Ruby on Rails",
+    "description": "Framework for front-end development",
+    "importance": "Medium",
+    "topics":  ["Framework", "Frontend"],
+    "article_link": "https://rubyonrails.org/"
+  },
+  {
+    "name": "Sleuth",
+    "description": "Sleuth is user for Track and improve DORA metrics",
+    "importance": "High",
+    "topics":  ["Metrics", "SaaS"],
+    "article_link": "https://www.sleuth.io/"
+  },
+  {
+    "name": "Snowflake",
+    "description": "Fully managed SaaS that provides a single platform for data warehousing, data lakes, data engineering, data science, data application development, and secure sharing and consumption of real-time / shared data.",
+    "importance": "Medium",
+    "topics":  ["BI", "Data Engineering"],
+    "article_link": "https://www.snaplogic.com/blog/snowflake-data-platform"
+  },
+  {
+    "name": "Spark",
+    "description": "Apache Spark is an open-source, distributed processing system used for big data workloads. It utilizes in-memory caching, and optimized query execution for fast analytic queries against data of any size.",
+    "importance": "Medium",
+    "topics":  ["BigData", "Caching", "Database", "Opensource"],
+    "article_link": "https://spark.apache.org/"
+  },
+  {
+    "name": "Spectral",
+    "description": "Monitor, classify, and protect your code, assets, and infrastructure for exposed API keys, tokens, credentials, and high-risk security misconfigurations in a simple way, without noise.",
+    "importance": "Medium",
+    "topics":  ["SaaS", "Secret Managment"],
+    "article_link": "https://www.notion.soMonitor, classify, and protect your code, assets, and infrastructure for exposed API keys, tokens, credentials, and high-risk security misconfigurations in a simple way, without noise."
+  },
+  {
+    "name": "Storybook",
+    "description": "Storybook is a tool for UI development. It makes development faster and easier by isolating components. This allows you to work on one component at a time.",
+    "importance": "High",
+    "topics":  ["Framework", "UI"],
+    "article_link": "https://storybook.js.org/"
+  },
+  {
+    "name": "Stripe",
+    "description": "Payment as a service. They are known for their great well designed API.",
+    "importance": "Medium",
+    "topics":  ["Payment", "SaaS"],
+    "article_link": "https://stripe.com/"
+  },
+  {
+    "name": "Svelte",
+    "description": "Frontend framework",
+    "importance": "Medium",
+    "topics":  ["Framework", "Frontend", "UI"],
+    "article_link": "https://svelte.dev/"
+  },
+  {
+    "name": "Tauri",
+    "description": "Tauri is a framework for building tiny, blazingly fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface.",
+    "importance": "Low",
+    "topics":  ["Desktop Application", "Frontend"],
+    "article_link": "https://www.notion.soTauri is a framework for building tiny, blazingly fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-end can interact with."
+  },
+  {
+    "name": "Tomcat",
+    "description": "Apache tomat is an open source project for running web servers.",
+    "importance": "Medium",
+    "topics":  ["Apache", "Java", "Opensource", "Web server"],
+    "article_link": "https://github.com/apache/tomcat"
+  },
+  {
+    "name": "Underscore",
+    "description": "Javascript library for many useful functionally",
+    "importance": "Medium",
+    "topics":  ["Javascript", "Library", "Opensource"],
+    "article_link": "https://underscorejs.org/"
+  },
+  {
+    "name": "Vagrant",
+    "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow.",
+    "importance": "High",
+    "topics":  ["CLI", "Hashicorp", "Opensource"],
+    "article_link": "https://www.vagrantup.com/intro/vs"
+  },
+  {
+    "name": "Vault",
+    "description": "Vault is an identity-based secrets and encryption management system. A secret is anything that you want to tightly control access to, such as API encryption keys, passwords, or certificates. Vault provides encryption services that are gated by authentication and authorization methods.",
+    "importance": "High",
+    "topics":  ["Hashicorp", "Opensource", "Secret Management"],
+    "article_link": "https://www.vaultproject.io/"
+  },
+  {
+    "name": "VictoriaMetrics",
+    "description": "VictoriaMetrics is a database based time-series",
+    "importance": "Medium",
+    "topics":  ["Database"],
+    "article_link": "https://victoriametrics.com/"
+  },
+  {
+    "name": "Webpack",
+    "description": "Webpack is NPM library that converts files that browsers can’t understand to files to browsers do understand. All of that with managing dependencies from source files.",
+    "importance": "High",
+    "topics":  ["Frontend", "Library", "Opensource"],
+    "article_link": "https://blog.ag-grid.com/webpack-tutorial-understanding-how-it-works/#:~:text=Webpack%20is%20a%20module%20bundler,standard%20for%20Web%20Applications%20today."
+  },
+  {
+    "name": "Zipkin",
+    "description": "Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in service architectures.",
+    "importance": "Medium",
+    "topics":  ["Distribute Tracing", "Opensource"],
+    "article_link": "https://zipkin.io/"
+  }
+]
